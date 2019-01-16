@@ -51,7 +51,7 @@ Lang.prototype.getLang = function(){
  */
 Plugin.requireAll = function(r) { 
 	r.keys().forEach(function(d){
-		Lang.files[d] = r(d);
+		Lang.files[d] = r(d).default;
 	});
 };
 
