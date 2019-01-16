@@ -29,7 +29,7 @@ Vue.use(Lang);
 ## Lang file
 ```js
 //messages.js
-module.exports = {
+export default {
   hello_world : 'Hellow World!'
 }
 ```
